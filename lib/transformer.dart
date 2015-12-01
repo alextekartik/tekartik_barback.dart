@@ -1,4 +1,4 @@
-library tekartik_transformer.transformer_common;
+library tekartik_barback.transformer;
 
 import 'dart:async';
 

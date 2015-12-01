@@ -1,11 +1,11 @@
 name: tekartik_in_uppercase_transformer
 description: A pub package
 dependencies:
-  tekartik_transformer:
+  tekartik_barback:
     path: ../../..
-#  tekartik_common:
-#    path: ../../common
 dev_dependencies:
+  tekartik_pub:
+    git: git://github.com/tekartik/tekartik_pub.dart
   test: any
   dev_test: any
 transformers:

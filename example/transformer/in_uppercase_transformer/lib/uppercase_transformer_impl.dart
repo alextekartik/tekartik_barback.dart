@@ -1,6 +1,6 @@
 library tekartik_uppercase_transformer;
 
-import 'package:tekartik_transformer/transformer.dart';
+import 'package:tekartik_barback/transformer.dart';
 import 'dart:async';
 import 'package:path/path.dart';
 

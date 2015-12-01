@@ -1,6 +1,6 @@
 library tekartik_uppercase_transformer;
 
-import 'package:tekartik_transformer/transformer_barback.dart';
+import 'package:tekartik_barback/transformer_barback.dart';
 import 'uppercase_transformer_impl.dart' as impl;
 
 class UppercaseTransformer extends BarbackTransformer {

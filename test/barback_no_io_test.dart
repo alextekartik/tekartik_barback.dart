@@ -1,4 +1,4 @@
-library tekartik_transformer.barback_test;
+library tekartik_barback.test.barback_no_io_test;
 
 // AssetId safe
 import 'package:barback/src/asset/asset_id.dart';

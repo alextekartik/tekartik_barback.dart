@@ -1,4 +1,4 @@
-library transformer_utils;
+library tekartik_barback.transformer_memory;
 
 import 'dart:async';
 import 'package:source_span/source_span.dart' as source_span;

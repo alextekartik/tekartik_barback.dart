@@ -1,5 +1,5 @@
 @TestOn("vm")
-library tekartik_uppercase_transformer_test;
+library tekartik_barback.test.io_uppercase_transformer_test;
 
 import 'package:tekartik_pub/pub.dart';
 import 'dart:async';

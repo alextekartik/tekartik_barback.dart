@@ -1,7 +1,7 @@
 @TestOn("vm")
-library tekartik_transformer_test;
+library tekartik_barback.transformer_test;
 
-import 'package:tekartik_transformer/transformer_memory.dart';
+import 'package:tekartik_barback/transformer_memory.dart';
 import 'io_test_common.dart';
 
 main() {

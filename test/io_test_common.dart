@@ -1,4 +1,4 @@
-library tekartik_io_tools.io_common;
+library tekartik_barback.test.io_test_common;
 
 import 'dart:mirrors';
 import 'package:path/path.dart';

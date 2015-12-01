@@ -1,5 +1,5 @@
 @TestOn("vm")
-library tekartik_transformer.barback_test;
+library tekartik_barback.test.barback_test;
 
 import 'package:barback/barback.dart';
 import 'package:dev_test/test.dart';

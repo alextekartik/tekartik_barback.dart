@@ -1,37 +1,7 @@
-library tekartik_transformer_test;
+library tekartik_barback.transformer_memory_test;
 
-import 'package:tekartik_transformer/transformer_memory.dart';
+import 'package:tekartik_barback/transformer_memory.dart';
 import 'package:dev_test/test.dart';
-//import 'io_test_common.dart';
-
-/*
-class Context {
-  String packageName = "tekartik_transformer";
-  String pubPackageRoot;
-  TransformerContext context;
-
-  static Future<Context> setUp() async {
-    Context test = new Context();
-    test.pubPackageRoot = await await getPubPackageRoot(testScriptPath);
-    test.context = new MemoryTransformerContext(test.pubPackageRoot);
-    return test;
-  }
-
-  Asset getStringContentAsset(String path, String content) {
-    AssetId assetId = new AssetId(packageName, path);
-    Asset asset = new Asset.fromString(assetId, content);
-    return asset;
-  }
-
-// find the exported asset
-  Asset getPackageAsset(String package, String path) {
-    AssetId assetId = new AssetId(package, path);
-    Asset asset = new Asset.fromPath(
-        assetId, join(pubPackageRoot, "packages", package, path));
-    return asset;
-  }
-}
-*/
 
 main() {
   defineTests(new MemoryTransformerContext());
@@ -94,26 +64,4 @@ defineTests(MemoryTransformerContext ctx) {
       expect(await transform.readInputAsString(assetId), isNull);
     });
   });
-/*
-    test('read_external_content', () {
-      Asset asset = ctx.getPackageAsset("dev_test", "test.dart");
-      Transform transform = new Transform(ctx.context, asset);
-      return transform.readInputAsString(asset.id).then((String content) {
-        //expect(content, 'voilà');
-        //print(content);
-        expect(content, isNotEmpty);
-      });
-    });
-
-    test('read another package', () {
-      AssetId toReadAssetId = new AssetId(packageName, 'test/data/simple_content.txt');
-
-      AssetId assetId = new AssetId("dummy", 'test/data/simple_content.txt');
-      Asset asset = new Asset.fromPath(assetId, assetId.path);
-      Transform transform = new Transform(context, asset);
-      return transform.readInputAsString(toReadAssetId).then((String content) {
-        expect(content, 'voilà');
-      });
-    });
-    */
 }
