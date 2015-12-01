@@ -1,0 +1,13 @@
+name: tekartik_in_uppercase_transformer
+description: A pub package
+dependencies:
+  tekartik_transformer:
+    path: ../../..
+#  tekartik_common:
+#    path: ../../common
+dev_dependencies:
+  test: any
+  dev_test: any
+transformers:
+- tekartik_in_uppercase_transformer/uppercase_transformer
+  
